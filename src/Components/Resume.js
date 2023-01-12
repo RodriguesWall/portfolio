@@ -3,18 +3,25 @@ import Slide from "react-reveal";
 
 class Resume extends Component {
   getRandomColor() {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+    let color = [
+      '#0997ba',
+      '#37FAE7',
+      '#31DE9B',
+      '#42F57E',
+      '#16756A',
+      '#25C2AF',
+      '#246C75',
+      '#3CB2C2',
+      '#157075',
+      '#387275',
+    ];
+    let item = color[Math.floor(Math.random()*color.length)];
+    return item;
   }
 
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -41,6 +48,19 @@ class Resume extends Component {
       );
     });
 
+    const volunteering = this.props.data.volunteering.map(function (volunteering) {
+      return (
+        <div key={volunteering.company}>
+          <h3>{volunteering.company}</h3>
+          <p className="info">
+            {volunteering.title}
+            <span>&bull;</span> <em className="date">{volunteering.years}</em>
+          </p>
+          <p>{volunteering.description}</p>
+        </div>
+      );
+    });
+
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
@@ -56,6 +76,22 @@ class Resume extends Component {
 
     return (
       <section id="resume">
+         <Slide left duration={1300}>
+          <div className="row skill">
+            <div className="three columns header-col">
+              <h1>
+                <span>My Skills</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="bars">
+                <ul className="skills">{skills}</ul>
+              </div>
+            </div>
+          </div>
+        </Slide>
+
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -85,22 +121,18 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row skill">
+          <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>Volunteering</span>
               </h1>
             </div>
 
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
+            <div className="nine columns main-col">{volunteering}</div>
           </div>
         </Slide>
+
+       
       </section>
     );
   }

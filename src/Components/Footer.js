@@ -16,20 +16,14 @@ class Footer extends Component {
     });
 
     return (
-      <footer>
+      <footer id='contact'>
         <div className="row">
           <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
-
+              <span>rodrigues@portalctech.com.br</span>
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
-                <li>
-                  Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
-                  </a>
-                </li>
+                <li>&copy; Copyright 2023 Walace Rodrigues</li>
               </ul>
             </div>
           </Fade>

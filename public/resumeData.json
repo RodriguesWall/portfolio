@@ -1,184 +1,192 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "name": "Walace Rodrigues",
+    "description": "I am a computer engineer and work with web development. Welcome to my portfolio",
+    "image": "wall.png",
+    "bio": "Entrepreneur passionate about technology. Computer engineer and works with development for 5 years. Web development specialist.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "rodrigues@portalctech.com.br",
+    "phone": "+55 (94) 99262-3788",
+    "github": "https://github.com/RodriguesWall",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "Av Araguaia, 705 C",
+      "city": "Marabá",
+      "state": "Pará",
+      "zip": "68503-670",
+      "country": "Brazil"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "http://walacerodrigues.com/",
+    "resumedownload": "http://walacerodrigues.com/resume.pdf",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/walace.silva.585",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/Rodrigues_walll",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/walace-rodrigues-a76703158/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "https://www.instagram.com/rodrigues_wall/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/RodriguesWall",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of the South and Southeast of Pará",
+        "degree": "Bachelor in Computer Engineering",
+        "graduated": "August 2019",
+        "description": "Graduation focused on telecommunications, electronics and software development"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "CTECH Desenvolvendo Soluções LTDA",
+        "title": "Co-Founder (Web and Mobile Developer | Project Manager)",
+        "years": "February 2019 - Present",
+        "description": "Administrative and commercial activities; Negotiation meetings and requirements mapping with customers; Sales of software development and IT consulting services (B2B); Development of web and mobile applications in projects; Management of software projects using agile methodologies"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Carro Chefe",
+        "title": "System Analyst",
+        "years": "Octuber 2020 - February 2021",
+        "description": "Creation of BI with analysis of sales and logistics data from supermarket chains."
+      },
+      {
+        "company": "A Principal Bebê e Mamãe",
+        "title": "System Analyst",
+        "years": "January 2020 - June 2020",
+        "description": "Creation of BI with analysis of sales indicators of the store network; Development of company delivery logistics application."
       }
     ],
-    "skills":[
+    "volunteering": [
       {
-        "name":"Python",
-        "level":"60%"
+        "company": "Pará Júnior - Federação Paraense de Empresas Juniores",
+        "title": "Entrepreneurial Training Coordinator",
+        "years": "January 2018 - December 2018",
+        "description": "Development of courses, training and events aimed at junior companies of universities in the state of Pará. Aiming at developing an entrepreneurial culture, fortification process management methodologies and customer service."
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "company": "Bits Jr. Soluções em TI",
+        "title": "Project Manager",
+        "years": "January 2017 - December 2018",
+        "description": "Project team management using Scrum; Training of the development team and Strategic Planning; Meeting extract requirements and sell services to customers; Web and Mobile Systems Development."
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "company": "University of the South and Southeast of Pará",
+        "title": "Scientific research",
+        "years": "June 2016 - December 2018",
+        "description": "Scientific research on “First Principle Numerical and Computational Methods for the Theoretical Study of Materials”. Computational analysis of physical and chemical characteristics of materials"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "company": "Instituto Federal do Pará",
+        "title": "Volunteer Programmer",
+        "years": "January 2016 - July 2018",
+        "description": "Programming of industrial automation equipment. Responsible for mapping the necessary processes to be executed in the production line and creating the routines for the Mechanical Arm FESTO MPS 500 System."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React Js",
+        "level": "100%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "Next Js",
+        "level": "100%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name": "HTML",
+        "level": "100%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "CSS",
+        "level": "100%"
+      },
+      {
+        "name": "Node Js",
+        "level": "80%"
+      },
+      {
+        "name": "React Native",
+        "level": "80%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Wordpress",
+        "level": "70%"
+      },
+      {
+        "name": "SQL",
+        "level": "70%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "OMO - Unilever",
+        "category": "Maintenance in Mobile Application. Using React Native and Node Js",
+        "image": "omo.jpg"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Eventozz",
+        "category": "Web Site, Dashboard and Mobile for ticket sales and event management. Using React, React Native, Next, Node Js and MySql",
+        "image": "eventozz.jpg"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "YouPass Club",
+        "category": "Web Site, Dashboard and Mobile for food subscription club. Using React, React Native, PHP and MySql",
+        "image": "you.png"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Ape360",
+        "category": "Dashboard and website for a rental and home sales company. Using React and Next",
+        "image": "ape.png"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Providence Saúde",
+        "category": "Developed Web Site with Wordpress",
+        "image": "providence.jpg"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Tintas Renner",
+        "category": "Developed Web Site with Next Js",
+        "image": "renner.jpg"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Condominio Mirante",
+        "category": "Web Site with Wordpress",
+        "image": "mirante.png"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "CTECH",
+        "category": "Web Site with HTML + CSS + JavaScript",
+        "image": "ctech.png"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Radiocenter 3d",
+        "category": "Web Site with Wordpress",
+        "image": "radiocenter.jpg"
       }
     ]
   }
